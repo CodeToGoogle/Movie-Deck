@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie Deck</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <header>
+        <a href="/">
+            <h1>Movie Deck</h1>
+        </a>
+    </header>
+    <!--Search bar-->
+    <div class="search-bar">
+        <input type="search" placeholder="Search by name..."
+         name="search"
+          id="search-input"
+          autocomplete="off" 
+          />
+          <button id="search-button">Search</button>
+    </div>
+    <!--Sort Tabs-->
+    <div class="sorting-options">
+        
+        <button id="sort-by-date">
+            Sort by date (oldest to latest)
+        </button>
+        <button id="sort-by-rating">
+            Sort by raiting (least to most)
+        </button>
+    </div>
+    <!--Listing Tab-->
+    <div class="tabs">
+        
+        <button id="all-tabs" class="active-tab">
+            All
+        </button>
+        <button id="favourites-tab">
+            Favourites
+        </button>
+    </div>
+</body>
+</html>
