@@ -73,8 +73,83 @@ sort-by-rating{
     height: 30px;
     border: none;
     border-radius: 5px;
+    
 }
 .active-tab{
     background-color: black;
+    color: white;
+}
+
+/*listing */
+#movies-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    list-style-type: none;
+    padding: 20px 0;
+
+}
+.card{
+    width: 200px;
+    height: 375px;
+    margin: 10px;
+    border:1px solid black;
+    border-color: gray;
+}
+.poster{
+    width:200px;
+    height:250px;
+    object-fit: cover;
+}
+.title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.vote{
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+   
+}
+.vote-favouriteIcon{
+    display: flex;
+    justify-content: space-around;
     
+    
+}
+.vote-count,
+.vote-rating{
+font-size: 16px;
+}
+
+.favourite-icon{
+    width: 20px;
+    height: 20px;
+    display: flex !important;
+    place-items: center;
+    margin-top: 5px;
+     
+}
+
+/*pagination */
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#prev-button,
+#page-number-button,
+#next-button{
+border-radius: 5px;
+padding: 5px 7px;
+border: none;
+margin-right: 2px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
